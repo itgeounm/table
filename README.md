@@ -71,19 +71,19 @@ Result table: <br/><br/>
 </tr>
 <tr>
 <td name="tname_rn_source">Row1</td>
-<td name="tname_r0">11</td>
+<td name="tname_r0">12</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row2</td>
-<td name="tname_r0">21</td>
+<td name="tname_r0">22</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row3</td>
-<td name="tname_r0">31</td>
+<td name="tname_r0">32</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row4</td>
-<td name="tname_r0">41</td>
+<td name="tname_r0">42</td>
 </tr>
 <tr style="background-color: #ba0c2f; color: white;">
 <td name="tname_c_source">Column i</td>
@@ -91,19 +91,19 @@ Result table: <br/><br/>
 </tr>
 <tr>
 <td name="tname_rn_source">Row1</td>
-<td name="tname_r0">11</td>
+<td name="tname_r0">1i</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row2</td>
-<td name="tname_r0">21</td>
+<td name="tname_r0">2i</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row3</td>
-<td name="tname_r0">31</td>
+<td name="tname_r0">3i</td>
 </tr>
 <tr>
 <td name="tname_rn_source">Row4</td>
-<td name="tname_r0">41</td>
+<td name="tname_r0">4i</td>
 </tr>
 
 </table>
