@@ -45,7 +45,6 @@ Source table:<br/>
 </table>
 Result table: <br/>
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
-
 <tr background-color: #ba0c2f; color: white; >
 Column 1
 </tr>
@@ -53,14 +52,18 @@ Column 1
 <td name="tname_rn_source">Row1</td>
 <td name="tname_r0">11</td>
 </tr>
-  <tr>
+<tr>
 <td name="tname_rn_source">Row2</td>
 <td name="tname_r0">21</td>
-  </tr>
-  <tr>
+</tr>
+<tr>
 <td name="tname_rn_source">Row3</td>
 <td name="tname_r0">31</td>
-  </tr>
+</tr>
+<tr>
+<td name="tname_rn_source">Row4</td>
+<td name="tname_r0">14</td>
+</tr>
 <tr style="background-color: #ba0c2f; color: white;">
 <td name="tname_c_source">Column 2</td>
 </tr>
