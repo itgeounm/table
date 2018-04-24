@@ -43,7 +43,7 @@ Source table:<br/>
 <tr></tr>
 
 </table>
-Result table: <br/>
+Result table: <br/><br/>
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
 <tr background-color: #ba0c2f; color: white; >
 <td name="tname_c_source">Column 1</td>
