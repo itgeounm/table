@@ -5,7 +5,7 @@ Requirements: bootstrap 3.7<br/>
 Table structure: columns AND rows names<br/>
 Works on iphones and ipads<br/>
 
-Source table:
+Source table:<br/>
 
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
 <thead>
