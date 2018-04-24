@@ -47,7 +47,7 @@ Result table: <br/>
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
 
 <tr style="background-color: #ba0c2f; color: white;">
-<td name="tname_c_source">Column 1</td>
+Column 1
 </tr>
 <tr>
 <td name="tname_rn_source">Row1</td>
