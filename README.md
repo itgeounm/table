@@ -46,7 +46,7 @@ Source table:<br/>
 Result table: <br/>
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
 
-<tr style="background-color: #ba0c2f; color: white;">
+<tr background-color: #ba0c2f; color: white; >
 Column 1
 </tr>
 <tr>
