@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="myDIV">
+<div class="table-responsive  table-condensed hidden-sm hidden-xs" style="overflow-x: auto;">
+<table class="table table-hover table-striped " summary="Upcoming Sessions">
+<thead>
+<tr style="background-color: #ba0c2f; color: white;">
+<td>Number of Classes</td>
+<td name="tname_c_source">Fall 2018 or Spring 2019 (16 weeks)</td>
+<td name="tname_c_source">Summer (8 weeks)</td>
+<td name="tname_c_source">Summer June Only (4 weeks)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td name="tname_rn_source">4 Classes *Full-time</td>
+<td name="tname_r0">$4,290</td>
+<td name="tname_r1">$2,930</td>
+<td name="tname_r2">$2,930</td>
+</tr>
+<tr>
+<td name="tname_rn_source">3 Classes</td>
+<td name="tname_r0">$4,290</td>
+<td name="tname_r1">$2,930</td>
+<td name="tname_r2">$2,930</td>
+</tr>
+<tr>
+<td name="tname_rn_source">2 Classes</td>
+<td name="tname_r0">$4,290</td>
+<td name="tname_r1">$2,930</td>
+<td name="tname_r2">$2,930</td>
+</tr>
+<tr>
+<td name="tname_rn_source">1 Class</td>
+<td name="tname_r0">$4,290</td>
+<td name="tname_r1">$2,930</td>
+<td name="tname_r2">$2,930</td>
+</tr>
+<tr></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<script type="text/javascript">
+var x = document.getElementsByName("tname_c_source");
+var x_row = document.getElementsByName("tname_rn_source");
+var i;
+var i1;
+
+    var div_cc = document.createElement("DIV");
+    
+    var att_cc_class = document.createAttribute("class");
+    att_cc_class.value = "container-fluid hidden-md hidden-lg";
+    div_cc.setAttributeNode(att_cc_class);
+    
+    var att_cc_style = document.createAttribute("style");
+    att_cc_style.value = "background-color: #F00;";
+    div_cc.setAttributeNode(att_cc_style);
+    
+    var att_cc_id = document.createAttribute("id");
+    att_cc_id.value = "div_cc";
+    div_cc.setAttributeNode(att_cc_id);
+    
+    document.getElementById("myDIV").appendChild(div_cc); 
+    
+    for (i = 0; i < x.length; i++) 
+    {
+        var div_col = document.createElement("DIV"); 
+        
+        var att_col_style = document.createAttribute("style");
+        att_col_style.value = "background-color: #ba0c2f; color: white;";
+        div_col.setAttributeNode(att_col_style);
+        
+        var att_col_name = document.createAttribute("name");
+        att_col_name.value = "div_col_name";
+        div_col.setAttributeNode(att_col_name);
+        
+        var att_col_class = document.createAttribute("class");
+        att_col_class.value = "row";
+        div_col.setAttributeNode(att_col_class);
+        
+        var tname_col_text= document.getElementsByName("tname_c_source")[i].innerHTML;
+        var t_col = document.createTextNode(tname_col_text);
+        div_col.appendChild(t_col);
+        document.getElementById("div_cc").appendChild(div_col); 
+        
+       
+        
+        for (i1 = 0; i1 < x_row.length; i1++) 
+        {
+            var rn_name=i;
+            
+            var div_rn = document.createElement("DIV");    
+            
+            var att_rn_style = document.createAttribute("style");
+            att_rn_style.value = "background-color: #FFF; color: #999;";
+            div_rn.setAttributeNode(att_rn_style);
+            
+            var att_rn_class = document.createAttribute("class");
+            att_rn_class.value = "row";
+            div_rn.setAttributeNode(att_rn_class); 
+            
+            var att_rn_name = document.createAttribute("name");
+            att_rn_name.value = "div_rn"+rn_name;
+            div_rn.setAttributeNode(att_rn_name);           
+            
+            document.getElementById("div_cc").appendChild(div_rn); 
+            
+            //rows names
+            var div_rn_1 = document.createElement("DIV");
+             
+            var att_rn_1_class = document.createAttribute("class");
+            att_rn_1_class.value = "col-sm-6 col-xs-6";
+            div_rn_1.setAttributeNode(att_rn_1_class);
+            
+            var tname_rn_1_text= document.getElementsByName("tname_rn_source")[i1].innerHTML;
+            var t_1 = document.createTextNode(tname_rn_1_text);
+            div_rn_1.appendChild(t_1);
+            document.getElementsByName(att_rn_name.value)[i1].appendChild(div_rn_1);
+            //rows values
+            
+            var t_r_num = i;
+            var t_r_name = "tname_r"+t_r_num;
+            
+            var div_rn_2 = document.createElement("DIV");
+             
+            var att_rn_2_class = document.createAttribute("class");
+            att_rn_2_class.value = "col-sm-6 col-xs-6";
+            div_rn_2.setAttributeNode(att_rn_2_class);
+            
+            var tname_rn_2_text= document.getElementsByName(t_r_name)[i1].innerHTML;
+            var t_2 = document.createTextNode(tname_rn_2_text);
+            div_rn_2.appendChild(t_2);
+            document.getElementsByName(att_rn_name.value)[i1].appendChild(div_rn_2); 
+            
+    
+        }
+    
+    }
+
+</script>
+
+</body>
+</html>
