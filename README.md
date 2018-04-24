@@ -11,7 +11,7 @@ Source table:<br/>
 
 <tr style="background-color: #ba0c2f; color: white;">
 <td>Number of...</td>
-<td name="tname_c_source">Column 1</td>
+<td name="tname_c_source" class="alert alert-success">Column 1</td>
 <td name="tname_c_source">Column 2</td>
 <td name="tname_c_source">Column i</td>
 </tr>
