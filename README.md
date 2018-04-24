@@ -6,12 +6,12 @@ Table structure: columns AND rows names<br/>
 Works on iphones and ipads<br/>
 
 Source table:<br/>
-
+<div class="alert alert-success" role="alert">...</div>
 <table class="table table-hover table-striped " summary="Upcoming Sessions">
 
 <tr style="background-color: #ba0c2f; color: white;">
 <td>Number of...</td>
-<td name="tname_c_source" class="alert alert-success">Column 1</td>
+<td name="tname_c_source" >Column 1</td>
 <td name="tname_c_source">Column 2</td>
 <td name="tname_c_source">Column i</td>
 </tr>
